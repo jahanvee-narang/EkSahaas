@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LearnTOFight">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn to fight"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:textAlignment="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="3sp"
+        android:src="@drawable/women"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimary"
+        android:text="Women are strong:  Women are powerful. In a perfect world, women wouldn’t need self-defense because men (and women alike) wouldn’t perpetrate crimes against each other – but the world is far from perfect. No matter what time it is, crimes can happen to any woman, which makes it ever so important to know some basic, but essential self-defense moves that focus on capturing the perpetrator by surprise, using leverage-based physical techniques, and feeling confident enough to stay as calm as possible in these situations.
+
+Learning martial arts, whether it be BJJ, Muay Thai or boxing, equips you with a range of simple moves you can use against someone that wishes to harm you. For simplicity’s sake, we will use “him” for the rest of the article, although your aggressor could be female."/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/first"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/second"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/third"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forth"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fifth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sixth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seventh"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eigth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ninth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eleventh"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twelth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thirteenth"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/safety"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/women2"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mma"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Body shot punch : "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:text="A body shot punch, taught in both boxing and Muay Thai, can be an effective self-defense move, especially against a taller person. Firstly, he won’t expect it as the more generally known tactics of women’s self-defense is to aim for an eye or a kick to the groin. You will have an element of shock and surprise with this technical punch. Secondly, because he will generally be taller, a body punch is much more accessible than trying to reach up to the face, and a lot more power can be generated when you are centered and balanced. Lastly, a good body shot paralyzes the receiver’s whole body. This will give you an opportunity to disengage while they are gasping for air and reorienting themselves, and of course, run away from danger.
+
+Now, on how to execute this move. A body punch can be executed from various angles, you can direct your punch straight to the stomach or the liver on either side of the stomach. This makes it a versatile tool to have since you can be standing directly in front of the perpetrator, or angled to the right or left. For a straight stomach punch, you will be standing face to face with the perpetrator and should bend both your legs slightly to lower yourself with the objective being to punch forwards. You want your shoulder to be at the same height as their chest and punch directly forwards.  As with any punch, power from a body shot is generated from your hips and the torque generated from twisting both your hip and your back leg by rotating the ball of your foot in the same direction. This is especially relevant for a powerful liver shot."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Defending a choke from the ground :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:text="In most cases against women, the attacker wants the fight to go to the ground, and if they are a lot larger than us or too quick in their advance before we have a chance to defend ourselves, it will likely go there. This is where Brazilian Jiu-Jitsu is most effective, by using leverage against a larger attacker.
+
+Say you have your back on the ground, your perpetrator on top of you in your guard (i.e. in between your legs) and he starts to choke you. Our instinct will be to immediately move our hands towards our neck. However, instead of trying to pull the attacker’s hands off your neck, which would be a difficult feat to achieve from your position, you should use your hands like hooks with your thumbs against your index fingers and hands cupped in a “C” shape and grab your attacker’s wrists so that your forearms form an X on top of his. Lift your hips up straight up into the air, like a hip thrust, so that momentarily, it seems like he has better leverage to choke you, but then immediately set your hips back onto the ground and use the momentum to bring your arms in as close to your body as possible whilst still holding onto his wrists, so as to break his posture. You will feel some relief from the choke as he is placed off balance. Using this moment where he doesn’t have a strong grip on you, hip escape, put one put or both feet on his hips and push away with your legs. The further away you shrimp, the less strength he will have in holding onto the choke. The aim is to create enough space for you to stand up and get back onto your feet so that you are no longer in immediate physical contact danger.
+
+ ">
+
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Guillotine Choke :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:text="In this example, your attacker has grabbed you with both hands by the waist, and you’ve fallen backwards as he overpowers you. Not an ideal place to be, but it should not cause panic. Bring one arm around and underneath his neck so that your forearm is against his Adam’s apple. Then, use your free hand and cup your choking hand to use as a lever and tighten and pull both your arms towards your head. For extra leverage, wrap your legs around him so that he has no place to move and will be completely stuck in your guillotine choke. This move can also be done while standing as well, but because of the height difference, the best time to go for it is just as he is leaning forwards attempting to grab you. With his head lowered, you have a better chance at being able to wrap your arm around and underneath his head for the choke."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

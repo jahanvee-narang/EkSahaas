@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:textSize="34sp"
+                android:gravity="center"
+                android:fontFamily="sans-serif-smallcaps"/>
+
+            <ImageView
+                android:layout_width="252dp"
+                android:layout_height="241dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jn" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textSize="17sp"
+                android:text="This app was created by jahanvee narang , a computet science student and programming enthuisastic. "/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Features of the app :-"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:text="-> Women safety in India is always a big concern which has been a most important topic, therefore this app was made to take one step ahead and show some sahaas against the crime occuring. "/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:text="->Despie being country where women are worshied as god , they are not even safe and respected , This app not only act as a shield to help you as an alert in unconscious stage but also to help you to how to fight against if you ever faced such situation ."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+               android:text="->The app also comes up with shop feature where you can purcahse some protecting tools like pepper spray , etc ."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="You can find various schemes , emergency numbers , nearby public spots and most importanty you can learn MMA which is consider best technique to help you choke the front person in danger and ran away ."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                      android:text="->All these might could help you in safety and this is all what the purpose of app was."
+                >
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

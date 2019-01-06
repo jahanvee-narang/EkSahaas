@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:id="@+id/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Warning">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Enter priority numbers"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:paddingTop="47sp"
+        android:layout_margin="24sp"
+        android:layout_gravity="center"
+        android:textStyle="normal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        android:padding="5sp"
+        android:background="@drawable/ovalwhite"
+        android:orientation="vertical">
+
+
+
+            <EditText
+                android:maxLength="10"
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@color/colorPrimary"
+                android:hint="first priority number : "
+                android:inputType="number"
+                android:layout_margin="20sp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+
+
+            <EditText
+                android:maxLength="10"
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="second priority number :"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:textAppearance="@color/colorPrimary"
+
+                />
+
+
+            <EditText
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="third priority number :"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:maxLength="10"
+                android:layout_marginBottom="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:textAppearance="@color/colorPrimary"
+
+                />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        android:text=" I declare to give these numbers for the emergency alert" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/oval"
+        android:text="SAVE"
+        android:textColor="@color/colorAccent" />
+
+
+</LinearLayout>

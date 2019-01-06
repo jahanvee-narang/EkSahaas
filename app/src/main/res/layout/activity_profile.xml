@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:background="@color/colorAccent">
+
+
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Jahanvee Narang"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#efefef"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="3sp"
+        android:textColor="#efefef"
+        android:text="jahanvee.narang@gmail.com" />
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="14sp"
+    android:textSize="20sp"
+    android:fontFamily="sans-serif-smallcaps"
+    android:text="Your saved priority numbers"/>
+
+<TextView
+    android:id="@+id/firstnumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:textColor="@color/colorPrimary"
+    android:text="9990119716"/>
+
+    <TextView
+        android:id="@+id/secondnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textColor="@color/colorPrimary"
+        android:text="8872512428"/>
+
+    <TextView
+        android:id="@+id/thirdnumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textColor="@color/colorPrimary"
+    android:text="8860872767"/>
+
+
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DATA"
+        android:layout_gravity="center"
+        android:background="@drawable/oval"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="50sp"/>
+
+
+
+</LinearLayout>
